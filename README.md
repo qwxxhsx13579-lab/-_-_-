@@ -13,3 +13,4 @@ The question is whether a project tells you where its boundary runs
 • The gap between the claim and the reality produces false assurance
 • Call that gap verification theatre
 Cryspen（高保障软件服务）'s libcrux:已形式化证明的密码库，ML-KEM google使用，hpke-rs被Signal和OpenMLS使用，顶尖被发现13漏洞。
+cross-platform testing and fuzzing catch what formal verification does not
