@@ -17,3 +17,10 @@ The question is whether a project tells you where its boundary runs
 • Call that gap verification theatre
 Cryspen（高保障软件服务）'s libcrux:已形式化证明的密码库，ML-KEM google使用，hpke-rs被Signal和OpenMLS使用，顶尖被发现13漏洞。
 cross-platform testing and fuzzing catch what formal verification does not 
+ McEliece cryptosystem:Public key: (𝐺, 𝑡). 𝐺=S*G'*P looks like the
+generator matrixG' of a random code.
+Private key: (𝑆, 𝐺′, 𝑃)可逆
+Why it can work: Anyone can encode
+with 𝐺 and sprinkle in 𝑡 errors; only
+someone who knows the hidden
+structure can remove them again
