@@ -24,3 +24,7 @@ Why it can work: Anyone can encode
 with 𝐺 and sprinkle in 𝑡 errors; only
 someone who knows the hidden
 structure can remove them again
+伪造签名：哈希链（K->H(K)->...H^w(K))私钥K,公钥H^w(k),sign m==发送H^m(K),收到H^m(K),(w-m)次后验证=H^w(K)? Generalattack: From signature of 𝑀, can forge any 𝑀′ > 𝑀
+• Fix: Sign both 𝑀 and 𝑤 − 𝑀 using two keys
+• Signature: (Hash𝑀 (𝐾1), Hash𝑤−𝑀 (𝐾2))
+• Now increasing 𝑀 requires decreasing 𝑤 − 𝑀
